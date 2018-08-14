@@ -1,0 +1,12 @@
+body {
+  background: #333;
+}
+
+.test-button {
+  width: 300px;
+  height: 200px;
+  margin: 400px auto;
+  background: skyblue;
+  font-size: 16px;
+  text-align: center;
+}

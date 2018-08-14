@@ -1,0 +1,13 @@
+body {
+  background: #ccc;
+  display: flex;
+}
+
+.test-button {
+  width: 200px;
+  height: 100px;
+  margin: 400px auto;
+  background: skyblue;
+  font-size: 25px;
+  text-align: center;
+}
