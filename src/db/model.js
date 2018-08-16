@@ -1,16 +1,20 @@
 const mongoose = require("mongoose");
 
-const User = mongoose.model(
+const Entry = mongoose.model(
   "Entry",
   new mongoose.Schema(
     {
-      a: { type: Number },
-      b: { type: String },
-      c: { type: Boolean }
+      sessionId: { type: String },
+      questionID: { type: String },
+      time: { type: Date },
+      tags: { type: String },
+      optionLeft: { type: String },
+      optionRight: { type: String },
+      answer: { type: String }
     },
     { versionKey: false }
   ),
   "entries"
 );
 
-module.exports = User;
+module.exports = Entry;

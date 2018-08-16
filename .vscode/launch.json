@@ -11,7 +11,7 @@
       "program": "${workspaceRoot}/server.js",
       "args": ["${file}"],
       "cwd": "${workspaceRoot}",
-      "stopOnEntry": true
+      "stopOnEntry": false
     }
   ]
 }
